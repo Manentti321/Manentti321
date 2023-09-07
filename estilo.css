@@ -1,0 +1,32 @@
+
+<html>
+
+estilo.css
+
+
+
+/* Estilos para o cabeçalho */
+h1 {
+    color: blue;
+    text-decoration: Red;
+    text-align: center;
+}
+
+/* Estilos para a navegação */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+}
+
+
+</html>

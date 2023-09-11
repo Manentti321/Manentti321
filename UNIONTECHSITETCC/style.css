@@ -1,0 +1,203 @@
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #ffffff;
+    color: #111111;
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 16px;
+}
+
+h1 {
+    font-family: 'Ubuntu Mono', monospace;
+    text-align: center;
+}
+
+a {
+    color: #a2ed56;
+}
+
+a:hover {
+    color: #83e4e2;
+    text-decoration: none;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 80em;
+}
+
+main .container {
+    padding: 1em;
+}
+
+p {
+
+  float: left;
+  width: 100%;
+  text-align: center;
+
+}
+
+.screen-reader-text {
+    clip: rect(1px 1px 1px 1px);
+    clip: rect(1px, 1px, 1px, 1px);
+    height: 1px;
+    overflow: hidden;
+    position: absolute !important;
+    width: 1px;
+}
+
+
+.menu-nav {
+    background: #0275ef;
+    color: #ffffff;
+    left: 0;
+    position: relative;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+}
+
+/*** INPUT ***/
+.menu-nav input {
+    opacity: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+/*** LABEL ***/
+.menu-nav label {
+    cursor: pointer;
+    display: block;
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 30px;
+    padding: 0.5em;
+}
+
+/* Hamburger Icon */
+#menu-icon,
+#menu-icon:before,
+#menu-icon:after {
+
+    background: #ffffff;
+    height: 3px;
+    transition: all 0.2s ease-in-out;
+    width: 100%;
+}
+
+#menu-icon {
+    display: inline-block;
+    margin: 0.4em 0;
+    max-width: 1em;
+    position: relative;
+}
+
+.menu-nav label #menu-icon {
+    float: right;
+}
+
+#menu-icon:before,
+#menu-icon:after {
+    content: '';
+    left: 0;
+    position: absolute;
+}
+
+#menu-icon:before {
+    top: -9px;
+}
+
+#menu-icon:after {
+    bottom: -9px;
+}
+
+/* Close Icon */
+.menu-nav input[type=checkbox]:checked + label #menu-icon {
+    background: transparent;
+}
+
+.menu-nav input[type=checkbox]:checked + label #menu-icon:before {
+    top: 0;
+    transform: rotate(-45deg);
+}
+
+.menu-nav input[type=checkbox]:checked + label #menu-icon:after {
+    bottom: 0;
+    transform: rotate(45deg);
+}
+
+
+/* MENU */
+/* Overlay Ativo*/
+.menu-nav input:checked ~ #overlay {
+ 
+    background: #32b2fe;
+    bottom: 0;
+    left: 0;
+    height: 100vh;
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 100vw;
+    z-index: -1;
+
+}
+
+.menu-nav ul {
+
+    font-size: 22px;
+    list-style: none;
+    margin: 0;
+    max-height: 0;
+    opacity: 0;
+    overflow: hidden;
+    padding: 0;
+    text-align: center;
+
+}
+
+.menu-nav input:checked ~ ul {
+    margin: 1em;
+    max-height: inherit;
+    opacity: 1;
+}
+
+.menu-nav ul > li {
+    margin: 0.5em 0;
+}
+
+.menu-nav ul a {
+
+    color: #ffffff!important;
+    text-decoration: none;
+    transition:.4s;
+
+}
+
+.menu-nav ul a:hover {
+    
+    color: #111111!important;
+    transition:.4s;
+
+}
+
+/*Redes Sociais*/
+.menu-nav ul.redes-sociais > li {
+
+    display: inline-block;
+    font-size: 30px;
+    margin: 8px;
+
+}

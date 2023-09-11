@@ -1,0 +1,18 @@
+TCC
+
+Capa: Deve conter o nome da instituição, nome do curso, título do trabalho, nome do autor e orientador, além da cidade e ano de submissão.
+Folha de Rosto: Similar à capa, mas sem as informações da cidade e ano, e com espaço para a inclusão da nota final após a avaliação.
+Resumo: Um resumo conciso do trabalho, geralmente entre 150 a 500 palavras, descrevendo o tema, objetivo, metodologia e principais conclusões.
+Sumário: Lista dos títulos e subtítulos das seções do trabalho, com indicação das páginas correspondentes.
+Lista de Figuras, Tabelas e Abreviações (se necessário): Se o trabalho tiver muitas figuras, tabelas ou abreviações, é útil listar esses elementos para facilitar a localização.
+Introdução: Apresentação do tema, contexto, problema de pesquisa, objetivo geral e específicos, justificativa e delimitação do estudo.
+Revisão de Literatura ou Fundamentação Teórica: Nesta seção, você deve apresentar as principais teorias, estudos e conceitos relacionados ao tema do trabalho.
+Metodologia: Descrição detalhada da abordagem metodológica adotada, explicando os procedimentos utilizados para coleta e análise dos dados.
+Resultados e Discussão: Apresentação dos resultados obtidos durante a pesquisa e a análise crítica e interpretação dos mesmos.
+Conclusão: Síntese dos resultados encontrados e das principais contribuições do trabalho, além de possíveis recomendações para futuras pesquisas.
+Referências Bibliográficas: Lista de todas as fontes citadas no trabalho, seguindo um padrão de citação (ABNT, APA, etc.).
+Anexos: Caso haja material adicional relevante para a compreensão do trabalho, como questionários, gráficos detalhados, entre outros, pode ser inserido como anexo.
+
+
+
+TCC nome da empresa e eslogan : Unions tech sempre com o pet
